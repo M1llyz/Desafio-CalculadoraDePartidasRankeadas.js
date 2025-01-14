@@ -6,7 +6,7 @@ function rankedBalance (wins, losses) {
 }
 
 function getRankedLevel (balance) {
-    let RankedLevels = ["FERRO", "BRONZE", "PRATA", "OURO", "DIAMANTE", "LENDÁRIO", "IMORTAL"]
+    let RankedLevels = ["IRON", "BRONZE", "SILVER", "GOLD", "DIAMOND", "LEGENDARY", "IMMORTAL"]
 
     if (balance < 10) {
         return RankedLevels[0]
